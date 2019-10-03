@@ -15,7 +15,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-gjnco.mongodb.net/
 //req.params = }Acessar route params (para edição, delete)
 //req.body = Acessar corpo da requisição(para criação, edição)
 
-
+app.use(express.json());
 app.use(routes);
 
 app.listen(3333);
