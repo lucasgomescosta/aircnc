@@ -1,0 +1,5 @@
+instalação
+npm install -g expo-cli
+
+iniciar projeto //--> mobile: "nome do projeto"
+expo init mobile
